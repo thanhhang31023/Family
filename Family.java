@@ -17,7 +17,7 @@ class Family {
         this.add = add;
         this.status = status;
         this.p = p;
-        nameF = p.get(0).getName();
+        nameF = p.get(0).getName();   //lấy tên của thành viên đầu tiên trong danh sách p và gán vào biến nameF
     }
 
     public String getNameF() {
